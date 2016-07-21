@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Form Validation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="col-xs-offset-2">
+      <h1>Fill out this form!</h1>
+    </header>
+
+    <div class="row valid-callout col-xs-offset-2">
+      <h2 id="valid-message"></h2>
+    </div>
+
+    <form class="form-horizontal">
+
+      <div class="form-group">
+        <label for="first-name" class="col-xs-2 control-label">First Name</label>
+        <div class="col-xs-4">
+          <input type="text" class="form-control" id="first-name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="last-name" class="col-xs-2 control-label">Last Name</label>
+        <div class="col-xs-4">
+          <input type="text" class="form-control" id="last-name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="user-email" class="col-xs-2 control-label">Email</label>
+        <div class="col-xs-4">
+          <input type="email" class="form-control" id="user-email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="user-name" class="col-xs-2 control-label">Username</label>
+        <div class="col-xs-4">
+          <input type="text" class="form-control" id="user-name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-5">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+
+    </form>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
